@@ -13,6 +13,7 @@
 		41FBE55E261D9632009101C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FBE55C261D9632009101C3 /* Main.storyboard */; };
 		41FBE560261D9632009101C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41FBE55F261D9632009101C3 /* Assets.xcassets */; };
 		41FBE563261D9632009101C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FBE561261D9632009101C3 /* LaunchScreen.storyboard */; };
+		41FBE56C261D9A95009101C3 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBE56B261D9A95009101C3 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		41FBE55F261D9632009101C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41FBE562261D9632009101C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41FBE564261D9632009101C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41FBE56B261D9A95009101C3 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		41FBE54A261D9631009101C3 = {
 			isa = PBXGroup;
 			children = (
+				41FBE56B261D9A95009101C3 /* ModalViewController.swift */,
 				41FBE555261D9632009101C3 /* ScreenTransition */,
 				41FBE554261D9631009101C3 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41FBE56C261D9A95009101C3 /* ModalViewController.swift in Sources */,
 				41FBE55B261D9632009101C3 /* ViewController.swift in Sources */,
 				41FBE557261D9632009101C3 /* AppDelegate.swift in Sources */,
 				41FBE559261D9632009101C3 /* SceneDelegate.swift in Sources */,
